@@ -1,4 +1,4 @@
-#### Boostrap Coffee shop landing page template
+#### Bootstrap Coffee shop landing page template
 
 ##### Freatures
 

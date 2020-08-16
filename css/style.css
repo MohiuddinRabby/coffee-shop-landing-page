@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+/* nav bar style starts */
+.navbar {
+    box-shadow: 1px 1px 1px 1px rgba(29, 34, 33, 0.26);
+    opacity: 0.8;
+    background: #fff;
+}
+nav img{
+    width: 60px;
+}
+.navbar ul li a{
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* nav bar style ends */

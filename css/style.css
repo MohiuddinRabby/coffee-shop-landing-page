@@ -2,43 +2,47 @@ html {
   scroll-behavior: smooth;
 }
 /* global */
-.read-more-button{
-    width: 120px;
-    height: 50px;
-    color: #604020;
-    background: #261a0d;
-    font-weight: bold;
-    border-radius: 3px;
-    text-align: center;
+.read-more-button {
+  width: 120px;
+  height: 50px;
+  color: #604020;
+  background: #261a0d;
+  font-weight: bold;
+  border-radius: 3px;
+  text-align: center;
 }
-.read-more-button:hover{
-    color: #c68c53;
-    background: #392613;
+.read-more-button:hover {
+  color: #c68c53;
+  background: #392613;
 }
-.coffee-bean-button{
-    width: 150px;
-    height: 50px;
-    color: #996633;
-    background: #4d3319;
-    font-weight: bold;
-    border-radius: 3px;
-    text-align: center;
+.coffee-bean-button {
+  width: 150px;
+  height: 50px;
+  color: #996633;
+  background: #4d3319;
+  font-weight: bold;
+  border-radius: 3px;
+  text-align: center;
 }
-.coffee-bean-button:hover{
-
-    color: #c68c53;
-    background: #392613;
-
+.coffee-bean-button:hover {
+  color: #c68c53;
+  background: #392613;
 }
 /* nav bar style starts */
 .navbar {
   border-bottom: 1px solid #008fb3;
-  opacity: 0.8;
+  opacity: 0.6;
+  background-color: #261a0d !important;
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
 }
 .navbar ul li a {
-    font-size: 20px;
-    font-weight: bold;
-  }
+  font-size: 20px;
+  font-weight: bold;
+  color: ivory;
+}
 .navbar img {
   width: 45px;
 }
@@ -61,7 +65,7 @@ html {
 .banner-inner {
   padding-top: 150px;
 }
-.banner-buttons{
-    margin-top: 50px;
+.banner-buttons {
+  margin-top: 50px;
 }
 /* carousel ends */

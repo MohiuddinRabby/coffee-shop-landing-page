@@ -20,44 +20,67 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>coffee-shop</title>
   </head>
-  <body>
+  <body id="home">
     <!-- Nav Section start -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <a class="navbar-brand" href="#">
-        <img src="img/logo2-removebg-preview.png" class="img-fluid" alt=""
-      /></a>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <a href="index.html" class="navbar-brand">
+        <img src="img/s4.svg" alt="" /> Coffee Brand</a
+      >
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+        data-target="#navbarCollapse"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a href="#home" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a href="#about" class="nav-link">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Products</a>
+            <a href="#products" class="nav-link">Products</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
+            <a href="#gallery" class="nav-link">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a href="#Contacts" class="nav-link">Contacts</a>
           </li>
         </ul>
       </div>
     </nav>
     <!-- Nav Section ends -->
+    <!-- banner starts -->
+    <header id="banner" class="py-5">
+      <div class="dark-overlay">
+        <div class="container banner-inner">
+          <div class="row">
+            <div class="col-lg-8">
+              <h1 class="banner-slogan">
+                Coffee is a way of stealing time which should by rights belong
+                to your older self.
+              </h1>
+              <p class="banner-slogan-lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                obcaecati, eum unde, molestiae culpa amet quam, commodi cumque
+                exercitationem blanditiis vitae cum ipsa dolorum reiciendis
+                mollitia repudiandae. Asperiores, cum aut.
+              </p>
+              <div class="banner-buttons">
+                <button class="btn read-more-button">Read More</button>
+                <button class="btn coffee-bean-button">Coffee Bean</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- banner ends -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script

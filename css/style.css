@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+body{
+  background-color: #1a0d00;
+}
 /* global */
 .read-more-button {
   width: 120px;
@@ -47,7 +50,7 @@ html {
   width: 45px;
 }
 /* nav bar style ends */
-/* carousel starts */
+/* banner starts */
 #banner {
   background: url("../img/banner3.png") no-repeat;
   background-size: cover;
@@ -68,4 +71,17 @@ html {
 .banner-buttons {
   margin-top: 50px;
 }
-/* carousel ends */
+/* banner ends */
+#about{
+  
+}
+#who-we-are {
+}
+#about-market {
+}
+#about-text {
+}
+.about-img img {
+  width: 55px;
+}
+/* About start */

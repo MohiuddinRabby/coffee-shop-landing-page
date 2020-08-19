@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
-body{
+body {
   background-color: #1a0d00;
 }
 /* global */
@@ -72,14 +72,22 @@ body{
   margin-top: 50px;
 }
 /* banner ends */
-#about{
-  
+#about {
 }
 #who-we-are {
+  color: #734d26;
+  font-weight: bold;
 }
 #about-market {
+  font-weight: bold;
+  color: #86592d;
 }
 #about-text {
+  color: #ccccb3;
+}
+#about-headers {
+  color: #86592d;
+  font-weight: bold;
 }
 .about-img img {
   width: 55px;

@@ -18,3 +18,14 @@ sr.reveal(".banner-slogan-lorem", {
     origin: "bottom",
     distance: "70px",
 });
+sr.reveal(".about-us", {
+  duration: 3000,
+  origin: "left",
+  distance: "100px",
+});
+sr.reveal(".about-us-two", {
+  duration: 3000,
+  origin: "right",
+  distance: "100px",
+});
+

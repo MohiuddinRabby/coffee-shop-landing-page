@@ -93,3 +93,14 @@ body {
   width: 55px;
 }
 /* About start */
+/* products start */
+#recent-product-title{
+  font-weight: bold;
+  color: #86592d;
+}
+.product-img img{
+  width: 350px;
+  height: 300px;
+
+}
+/* products end */

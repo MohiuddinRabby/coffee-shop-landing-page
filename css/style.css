@@ -103,4 +103,17 @@ body {
   height: 300px;
 
 }
+.card{
+  background-color: #392613 !important;
+}
+.card-body{
+  color: #a07e5d;
+}
+#product-price{
+  font-weight: bolder;
+ color: #996633;
+}
+button i{
+  color: #fff;
+}
 /* products end */

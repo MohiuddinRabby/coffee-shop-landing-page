@@ -28,4 +28,6 @@ sr.reveal(".about-us-two", {
   origin: "right",
   distance: "100px",
 });
-
+sr.reveal("#recent-product-title", {
+  duration: 3000,
+});

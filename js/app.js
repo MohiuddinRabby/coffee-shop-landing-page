@@ -14,9 +14,9 @@ sr.reveal(".banner-buttons", {
 });
 
 sr.reveal(".banner-slogan-lorem", {
-    duration: 2000,
-    origin: "bottom",
-    distance: "70px",
+  duration: 2000,
+  origin: "bottom",
+  distance: "70px",
 });
 sr.reveal(".about-us", {
   duration: 3000,
@@ -30,4 +30,9 @@ sr.reveal(".about-us-two", {
 });
 sr.reveal("#recent-product-title", {
   duration: 3000,
+});
+sr.reveal(".card", {
+  duration: 3000,
+  origin: "top",
+  distance: "100px",
 });

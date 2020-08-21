@@ -115,3 +115,9 @@ button i{
   color: #fff;
 }
 /* products end */
+/* gallery starts */
+#gallery-title{
+  font-weight: bold;
+  color: #86592d;
+}
+/* gallery ends */

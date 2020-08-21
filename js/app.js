@@ -31,8 +31,21 @@ sr.reveal(".about-us-two", {
 sr.reveal("#recent-product-title", {
   duration: 3000,
 });
-sr.reveal(".card", {
+sr.reveal("#product-card", {
   duration: 3000,
   origin: "top",
+  distance: "100px",
+});
+sr.reveal("#gallery-title", {
+  duration: 3000,
+});
+sr.reveal("#g1", {
+  duration: 3000,
+  origin: "top",
+  distance: "100px",
+});
+sr.reveal("#g2", {
+  duration: 2000,
+  origin: "bottom",
   distance: "100px",
 });
